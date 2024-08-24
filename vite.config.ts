@@ -10,7 +10,7 @@ export default defineConfig({
       '@store':      path.resolve(__dirname, 'src/store'),
       '@components': path.resolve(__dirname, 'src/components'),
       '@model':      path.resolve(__dirname, 'src/model'),
-      '@service':    path.resolve(__dirname, 'src/service'),
+      '@services':    path.resolve(__dirname, 'src/services'),
       '@hooks':      path.resolve(__dirname, 'src/hooks'),
     }
   }

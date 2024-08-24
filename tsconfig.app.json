@@ -22,12 +22,16 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
+      "@src/*":["src/*"],
       "@components/*":["src/components/*"],
       "@hooks/*":     ["src/hooks/*"],
       "@store/*":     ["src/store/*"],
       "@model/*":     ["src/model/*"],
-      "@service/*":   ["src/service/*"],
-    }
+      "@services/*":   ["src/services/*"],
+    },
+    "plugins": [{
+      "name": "typescript-plugin-css-modules"
+    }]
   },
   "include": ["src"]
 }

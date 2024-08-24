@@ -1,0 +1,7 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 1250px) 1fr;
+}
+.container{
+    grid-column: 2/3;
+}
