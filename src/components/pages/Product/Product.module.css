@@ -1,0 +1,32 @@
+.link{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding: 10px 15px;
+    background: gainsboro;
+    border-radius: 10px;
+    transition: .2s;
+    text-align: center;
+}
+.link:hover{
+    filter: brightness(.5);
+}
+.body{
+    display: grid;
+    gap: 20px;
+    flex-flow: column;
+}
+.title{
+    font-size: 32px;
+    font-weight: 600;
+
+    
+}
+.title::first-letter,.text::first-letter{
+    text-transform: capitalize;
+}
+.text{
+    font-size: 18px;
+}
