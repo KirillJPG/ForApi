@@ -1,0 +1,17 @@
+.spinner{
+    animation: loading linear infinite .5s;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+@keyframes loading {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}

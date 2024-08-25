@@ -1,5 +1,4 @@
 .layout{
-    display: flex;
-    flex-flow: column;
-    gap: 25px;
+    display: grid;
+    gap: 10px;
 }

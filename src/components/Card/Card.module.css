@@ -1,0 +1,37 @@
+.card{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 3;
+    text-wrap: nowrap;
+    width: 100%;
+}
+.body{
+    overflow: hidden;
+    width:100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.like{
+    transition: .3s;
+    fill: gray;
+    color: gray;
+    cursor: pointer;
+}
+.like:hover{
+    fill: rgb(233, 99, 122);
+}
+.like.active{
+    fill: rgb(233, 99, 122);
+}
