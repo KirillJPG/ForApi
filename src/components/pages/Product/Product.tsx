@@ -17,7 +17,9 @@ export function Product(){
                 <div className={style.text}>{data?.body}</div>
                 </>
             )}
-            
+            {isError && (
+                <div className="">Error</div>
+            )}
         </div>
     )
 }

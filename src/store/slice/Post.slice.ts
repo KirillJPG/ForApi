@@ -1,4 +1,3 @@
-import { Post } from "@model/Post.interface";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 export type Filter = "base" | "favorite"
